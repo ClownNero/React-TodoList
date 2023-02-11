@@ -11,7 +11,7 @@ function App() {
     <DarkModeProvider>
       <Header 
         filters={filters}
-        filter={filter} 
+        filter={filter} sd
         onFilterChange={setFilter}
       />
       <TodoList filter={filter}/>
