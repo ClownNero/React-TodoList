@@ -3,7 +3,7 @@ import {BsTrashFill} from 'react-icons/bs';
 import styles from './Todo.module.css';
 
 export default function Todo({todo, onUpdate, onDelete}) {
-    
+    console.log('ho');
     const {text, status} = todo;
     const handleChange = (e)=>{
         const status = e.target.checked? 'completed' : 'active';
